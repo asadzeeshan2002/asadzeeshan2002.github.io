@@ -10,7 +10,7 @@
     .container{max-width:900px;margin:32px auto;padding:28px}
     .card{background:linear-gradient(180deg, rgba(255,255,255,0.98), rgba(255,255,255,0.99));box-shadow:0 8px 30px rgba(17,24,39,0.08);border-radius:12px;padding:28px}
     header{display:flex;align-items:center;gap:20px}
-    .avatar{width:92px;height:92px;border-radius:10px;background:linear-gradient(135deg,var(--accent),#2dd4bf);display:flex;align-items:center;justify-content:center;color:#fff;font-weight:700;font-size:28px}
+    .img{width:92px;height:92px;border-radius:10px;display:block;background-size: cover;background-position: center;margin: 0 auto 20px auto;}
     h1{margin:0;font-size:24px}
     .sub{color:var(--muted);margin-top:6px;font-size:14px}
     .contact{margin-left:auto;text-align:right}
@@ -36,40 +36,36 @@
   <div class="container">
     <div class="card">
       <header>
-        <div class="avatar">AZ</div>
+        <div class="img" style="background-image: url('ASAD-PIC.png');"></div>
         <div>
           <h1>Engr. Asad Zeeshan</h1>
-          <div class="sub">Master's Candidate — Electrical Engineering | Telecom & Microwave / IoT Security</div>
-          <div class="small">Originally from Charsadda · Based in Islamabad</div>
+          <div class="sub"> PEC Registered Electrical Engineer | Telecom & Microwave / IoT Security</div>
+          <div class="small">Based in Islamabad</div>
         </div>
         <div class="contact">
           <div class="small">masadzeeshan@gmail.com</div>
           <div class="small">0317-5023237</div>
-          <a href="#">LinkedIn: Asad Zeeshan</a>
+          <a href="#">LinkedIn: asad-zeeshan-0814b2271</a>
           <a href="#">GitHub: asadzeeshan2002</a>
         </div>
       </header>
-
+ 
       <div class="grid">
         <main>
           <section class="section">
             <h2>Education</h2>
-            <div class="experience">
+            <div class="experience">   
               <div class="role">Master of Electrical Engineering (Inprogress)</div>
-              <div class="muted">Bahria University, Islamabad</div>
+              <div class="muted">Bahria University, Islamabad (2024-2026)</div>
+              <li>Specialization in Communication and IoT networks.</li>
             </div>
             <div class="experience">
-              <div class="role">Bachelor of Electrical Engineering (Telecommunication) — CGPA: 2.81</div>
-              <div class="muted">Bahria University, Islamabad</div>
+              <div class="role">Bachelor of Electrical Engineering     </div>
+              <div class="muted">Bahria University, Islamabad (2020-2024)</div>
+              <li>Specialization in Telecommunication</li>
+              <li>Final Year Project: Security analysis of Industrial IoT Devices.</li>
             </div>
-            <div class="experience">
-              <div class="role">Intermediate (Pre-Engineering) — Grade A</div>
-              <div class="muted">ANSI College, Mardan</div>
-            </div>
-            <div class="experience">
-              <div class="role">Matriculation (Science) — A1</div>
-              <div class="muted">Oriental School, Mardan</div>
-            </div>
+            
           </section>
 
           <section class="section">
@@ -80,7 +76,6 @@
               <ul>
                 <li>Assisted in microwave links planning, configuration and testing.</li>
                 <li>Troubleshot transmission issues and supported field integration tasks.</li>
-                <li>Worked with cross-functional teams on network deployment activities.</li>
               </ul>
             </div>
 
@@ -93,20 +88,12 @@
               </ul>
             </div>
 
-            <div class="experience">
-              <div class="role">Business Development / University Collaboration (Contract)</div>
-              <div class="muted">2024 – Present</div>
-              <ul>
-                <li>Coordinated with universities for lab development and supply of training equipment.</li>
-                <li>Provided technical support and product recommendations for academic programs.</li>
-              </ul>
-            </div>
           </section>
 
           <section class="section">
             <h2>Academic Projects</h2>
             <div class="experience">
-              <div class="role">AI Engine for Plant Disease Diagnosis &amp; Medicine Recommendation (Thesis)</div>
+              <div class="role">AI Engine for Plant Disease Diagnosis &amp; Medicine Recommendation (project)</div>
               <div class="muted">CNN (PyTorch) · PlantVillage dataset</div>
               <ul>
                 <li>Built a CNN model to classify plant leaf diseases and suggest remedies.</li>
@@ -115,7 +102,7 @@
             </div>
 
             <div class="experience">
-              <div class="role">Security Analysis of Industrial IoT Devices</div>
+              <div class="role">Security Analysis of Industrial IoT Devices (FYP)</div>
               <div class="muted">ESP8266 · IoT Security · AI Chatbot</div>
               <ul>
                 <li>Designed an IIoT testbed, simulated attacks (DoS, MITM, Rogue Beacons).</li>
@@ -132,31 +119,7 @@
             </div>
           </section>
 
-          <section class="section">
-            <h2>Skills</h2>
-            <div class="skills">
-              <span class="pill">C++</span>
-              <span class="pill">C#</span>
-              <span class="pill">Python</span>
-              <span class="pill">MATLAB</span>
-              <span class="pill">PyTorch (CNN)</span>
-              <span class="pill">HTML</span>
-              <span class="pill">Cisco</span>
-              <span class="pill">AutoCAD</span>
-              <span class="pill">Embedded Systems</span>
-              <span class="pill">Microwave Planning</span>
-            </div>
-          </section>
-
-          <section class="section">
-            <h2>Leadership &amp; Activities</h2>
-            <ul>
-              <li>President, Sports Club — Bahria University</li>
-              <li>Director of Socials — BU-MUN 2024</li>
-              <li>Student Mentor — E-Hunt Program, EE Department</li>
-              <li>Organised CSR drives (winter drive, cleaning &amp; plantation, stationary drive)</li>
-            </ul>
-          </section>
+          
 
         </main>
 
@@ -167,16 +130,40 @@
           </section>
 
           <section class="section">
+            <h2>Skills</h2>
+            <ul class="small">
+              <li>Microwave Planning</li>
+              <li>Embedded Systems</li>
+              <li>MATLAB </li>
+              <li>AutoCAD</li>
+              <li>NMS</li>
+              <li>HTML</li>
+              <li>GitHub</li>
+            </ul> 
+          </section>
+
+          <section class="section">
             <h2>Certifications &amp; Conferences</h2>
             <ul class="small">
-              <li>International Conference on Digital Communication (C-Code) — Attendee</li>
+              <li>International Conference on Digital Communication (C-Code) — Usher</li>
               <li>Various internal Huawei trainings — Microwave &amp; Field Operations</li>
+              <li>Critical creative &amp; innovative thinking — Aga Khan University</li>
             </ul>
           </section>
 
           <section class="section">
             <h2>Interests</h2>
             <p class="small">Cricket, AI for agriculture, Embedded systems, Community service</p>
+          </section>
+
+          <section class="section">
+            <h2>Leadership &amp; Activities</h2>
+            <ul class="small">
+              <li>President, Sports Club — Bahria University</li>
+              <li>Director of Socials — BU-MUN 2024</li>
+              <li>Student Mentor — E-Hunt , EE Department</li>
+              <li>Organised CSP drives (winter drive, cleaning &amp; plantation, stationary drive)</li>
+            </ul>
           </section>
 
           <section class="section">
